@@ -41,33 +41,20 @@
 .grid__illustration {
     width: 100%;
     height: 39rem;
-
+/* 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr
                         1fr
-                        1fr;
-    grid-template-areas: "bleu  triple"
-                         "bleu  void"
-                         "rouge  noir"
+                        1fr; */
+    grid-template-areas: "bleu  ...."
+                         "bleu  ...."
+                         "....  ...."
 }
 
 .grid__blue {
     grid-area: bleu;
 }
 
-.grid__triple {
-    grid-area: triple;
-}
-.grid__void {
-    grid-area: void;
-}
-
-.grid__red {
-    grid-area: rouge;
-}
-.grid__black {
-    grid-area: noir;
-}
 
 .grid__header{
     grid-template-rows: 1fr 

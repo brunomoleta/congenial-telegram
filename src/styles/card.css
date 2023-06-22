@@ -10,14 +10,14 @@
 
 .card,
 #card__image {
-    margin-block-start: -24rem;
+  margin-block-start: -24rem;
 }
 
 #card__image {
-    position: relative;
-    z-index: 1;
-    width: 28rem;
-    height: 5 * var(--card-ill);
+  position: relative;
+  z-index: 1;
+  width: 28rem;
+  height: 5 * var(--card-ill);
 }
 
 #card__vector {
@@ -52,7 +52,6 @@
 .card__info__text {
   gap: 2rem;
 }
-
 
 @media screen and (min-device-width: 551px) and (max-device-width: 950px) {
   #cards {
@@ -97,6 +96,7 @@
   #card__vector {
     position: static;
     transform: none;
+    max-width: 95%;
   }
 
   #cards {
@@ -121,9 +121,8 @@
   }
   #card__image {
     position: absolute;
-    min-width: var(--card-ill-triple);
-    width: 55%;
-    max-width: 24rem;
+    width: 100%;
+    max-width: var(--card-ill-triple);
     height: auto;
     z-index: 1;
     top: 36%;

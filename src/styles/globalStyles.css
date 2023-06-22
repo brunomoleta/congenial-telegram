@@ -75,9 +75,6 @@ main {
   body {
     background-image: url("../assets/bg-main-mobile.png");
   }
-  nav {
-    margin-block-start: var(--nav-margin-top-mobile);
-  }
   #cards {
     margin-block-end: var(--cards-margin-block-end-mobile);
     padding-block-start: var(--cards-margin-block-start-mobile);
