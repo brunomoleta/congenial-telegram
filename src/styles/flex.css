@@ -41,11 +41,6 @@
 .grid__illustration {
     width: 100%;
     height: 39rem;
-/* 
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr
-                        1fr
-                        1fr; */
     grid-template-areas: "bleu  ...."
                          "bleu  ...."
                          "....  ...."
